@@ -1,0 +1,13 @@
+{
+  "name": "normal_fn_1",
+  "type": "function",
+  "source": {
+    "https": "https://github.com/block-test-org/normal_fn_1",
+    "ssh": "git@github.com:block-test-org/normal_fn_1.git"
+  },
+  "language": "nodejs",
+  "start": "node index.js",
+  "build": "",
+  "postPull": "npm i",
+  "standAloneBlock": false
+}
